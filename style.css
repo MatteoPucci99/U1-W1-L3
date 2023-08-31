@@ -2,113 +2,84 @@
 
 body {
     font-family: 'Roboto Slab', serif;
-}
-
-nav {
-    height: 20vh;
-    
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-   
-}
-
-.caption-logo {
-    text-align: center;
-    background-color: #FFFCEE;
-    border-top: #F5D248 solid 1px;
-    height: 6vh;
-    color: #223f3f;
-}
-
-article {
-    margin-left: 30em;
-    margin-right: 30em;
-    text-align: center;
-    
-}
-
-article h1 {
-    font-size: 2.5em;
     margin: 0;
 }
 
-.caption {
-    margin-top: 2.5em;
+header {
+    text-align: center;
+    padding-top: 15px;
 }
 
-p {
-    font-size: 1.2em;
+header img {
+    width: 250px;
 }
+
+header p {
+    background-color: rgb(255, 255, 227);
+    padding: 15px;
+    border-top: 1px solid gold;
+    color: rgb(24, 42, 43);
+}
+
+header p span {
+    font-weight: bold;
+}
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.container p {
+    font-size: 1.3em;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(170, 170, 170);
+}
+
+.container img + p {
+    font-size: 1em;
+    color: darkgray;
+    text-align: center;
+    
+}
+
+.featured-in p {
+    margin: 0;
+    color: rgb(209, 136, 0);
+}
+
+.featured-in {
+    padding-left: 15px;
+    border-left: 1px solid gold;
+    
+}
+
 
 li {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.container ol p {
     font-size: 1.1em;
 }
 
-.caption p {
-
-    margin: 0;
-    
-}
-
-.focaccia {
-    padding: 0.5em;
-    color: rgb(148, 148, 148);
-    
-}
-
-.focaccia img {
-    border-radius: 10px;
-    box-shadow: 6px 6px 5px rgb(216, 216, 216);
-   
-}
-
-.featured-link {
-    text-align: start;
-    padding-left: 26.5em;
-    
-}
-
-#featured-in {
-    border-left: #F5D248 solid 2px;
-    padding-left: 1em;
-}
-
-.featured-link p {
-    margin-bottom: 0;
-}
-
-.ingredients {
-    text-align: start;
-    padding-left: 26.5em;
-    padding-top: 3em;
-    
-}
-
-.method{
-    text-align: start;
-    padding-left: 26.5em;
-    padding-top: 3em;
-}
-
-.ingredients li {
-    margin: 0.7em;
-}
-
-.method li {
+ol li {
     font-weight: bold;
-    margin-bottom: 1em;
 }
 
-.method p {
-    margin: 0;
-    
-}
-
-.border-bottom-title {
-    border-bottom: rgb(169, 255, 255) solid 1px;
-   margin-right: 26.5em;
+.container h2 {
+    margin-top: 50px;
+    border-bottom: 1px solid rgb(168, 255, 255);
+    padding-bottom: 5px;
 }
